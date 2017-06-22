@@ -24,8 +24,8 @@ SSH_CMD="ssh -p ${SSH_PORT} \
 SRC_1 = "${here}/../foo/"
 DEST_1 = "/srv/foo/"
 
-SRC_1 = "${here}/../bar/"
-DEST_1 = "/srv/bar/"
+SRC_2 = "${here}/../bar/"
+DEST_2 = "/srv/bar/"
 
 
 cd "${SRC_1}" && watchexec \
